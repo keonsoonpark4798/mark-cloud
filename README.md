@@ -6,10 +6,10 @@ FastAPI 기반으로 구현한 상표 검색 API입니다.
 
 ## 실행 방법
 
-```bash
-# 특허청 고시상품명칭 데이터 다운로드
-https://www.kipo.go.kr/ko/kpoContentView.do?menuCd=SCD0201120
+- 특허청 고시상품명칭 데이터 다운로드
+  [특허청 주소](https://www.kipo.go.kr/ko/kpoContentView.do?menuCd=SCD0201120)
 
+```bash
 # 엑셀파일을 data 폴더에 넣고 createJSON으로 JSON 파일 생성
 python createJSON.py
 
